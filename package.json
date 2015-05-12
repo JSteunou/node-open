@@ -27,5 +27,8 @@
   "main": "lib/open.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha"
+  },
+  "bin": {
+    "node-open": "./lib/cli.js"
   }
 }
